@@ -41,7 +41,7 @@ This calculation allows us to determine the angle between two points on the surf
 
 ### Shared Memory Usage
 
-The CUDA kernel, `calculateHistograms`, employs shared memory for efficient inter-thread communication and synchronization during histogram calculations. Specifically, subsets of galaxy data and local histograms are stored in shared memory. This enhances data accessibility and reduces global memory accesses, improving overall performance.
+The CUDA kernel, `calculateHistogramAngles`, employs shared memory for efficient inter-thread communication and synchronization during histogram calculations. Specifically, subsets of galaxy data and local histograms are stored in shared memory. This enhances data accessibility and reduces global memory accesses, improving overall performance.
 
 ### Calculation Logic
 
