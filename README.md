@@ -95,4 +95,4 @@ No. of Blocks: 1220704, Threads per Block: 512, Total Threads: 625000448
 | 1.086647   | 7323414     | 3384896     | 6389408     |
 | 1.002047   | 8173756     | 4079235     | 7468356     |
 
-Time in GPU: 0.734766
+Time in GPU: 0.399956
