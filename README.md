@@ -13,30 +13,6 @@ The angle between two galaxies can never exceed 180 degrees. With a histogram bi
 
 The program calculates the angular separation for each galaxy in the real dataset against every other galaxy in both the real and fake datasets. Three histograms are created: DD (real galaxies vs. real galaxies), DR (real galaxies vs. fake galaxies), and RR (fake galaxies vs. fake galaxies).
 
-## What should you consider? 
-
-Given two points on the surface of a sphere, the angle between those two points as seen from the center of the sphere can be calculated using the following approach:
-
-- **Basic Idea:** Represent each point by a unit vector from the center to the surface of the sphere and calculate the dot product of the two vectors.
-
-- The dot product (•) between two 3-D vectors **r₁** and **r₂** is given by:
-
-where **|r|** is the length of the vector **r**, and **θ₁₂** is the angle between the two vectors.
-
-- Since we are dealing with unit vectors, **|r₁| = |r₂| = 1**.
-
-
-This calculation allows us to determine the angle between two points on the surface of the sphere, providing insights into their spatial relationship from the center.
-
-
-
-
-<p align="center">
-<img src="img/anglecalculation.png" alt="Calculating the angle between random two points in a surface of a sphere" style="width:50%;">
-</p>
-
-
-
 ## How It Works
 
 ### Shared Memory Usage
